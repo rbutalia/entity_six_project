@@ -26,18 +26,33 @@ namespace ex3.Domain
         public Person TrueIdentity { get; set; }
     }
 
-    public class NinjaFamily
+    public class Family
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public List<Ninja> Ninjas { get; set; }
     }
 
+    public class Equipment
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public EquipmentType EquipmentType { get; set; }
+        public List<Ninja> Ninjas { get; set; }
+    }
 
     public class Person
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public Ninja Ninja { get; set; }
+    }
+
+    public class ClassWithGuidKey
+    {
+        public Guid Key { get; set; }
+        public string Description { get; set; }
+        public int Id { get; set; }
+
     }
 }

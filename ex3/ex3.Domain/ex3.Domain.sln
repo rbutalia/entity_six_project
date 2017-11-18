@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3.Data", "..\ex3.Data\ex3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{05554796-BD58-4548-A287-94D3A7B27367}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex3.AutomatedTests", "..\ex3.AutomatedTests\ex3.AutomatedTests.csproj", "{09689AEE-2CFB-4803-B2AD-576B159F02B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{05554796-BD58-4548-A287-94D3A7B27367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05554796-BD58-4548-A287-94D3A7B27367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05554796-BD58-4548-A287-94D3A7B27367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09689AEE-2CFB-4803-B2AD-576B159F02B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09689AEE-2CFB-4803-B2AD-576B159F02B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09689AEE-2CFB-4803-B2AD-576B159F02B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09689AEE-2CFB-4803-B2AD-576B159F02B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
